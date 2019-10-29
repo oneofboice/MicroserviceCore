@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "type": "Core.Logic.LoggerFunctions, Core",
+      "services": [
+        {
+          "type": "Api.Interfaces.ILoggerFunctions, Api"
+        }
+      ]
+    },
+    {
+      "type": "TestImpl.TestImpl, TestImpl",
+      "services": [
+        {
+          "type": "Test.ITest, Test"
+        }
+      ]
+    },
+    {
+      "type": "Core.Configurations.LoggerConfigurator, Core"
+    }
+  ]
+}
